@@ -66,7 +66,7 @@
 	
 	- `id` : Unique ID
 	
-	- `moshaf_type` : MosHaf's Type ID  (<a href="docs/moshafs.md" target="_blank">MosHaf - المصحف</a>)
+	- `moshaf_type` : MosHaf's Type ID  (<a href="../docs/moshafs.md" target="_blank">MosHaf - المصحف</a>)
 	
 	- `name` : MosHaf's Name
 	
