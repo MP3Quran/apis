@@ -1,52 +1,35 @@
 #### Radios
 -------------------------
 
-##### Getting languages
-###### `GET` http://api.mp3quran.net/radios/get_radios.php
+##### Getting radios list of a specific language
+###### `GET` http://api.mp3quran.net/api_2/radios?language=en
 
 ```json
 {
-    "language": [
-        {
-            "id": "1",
-            "language": "العربية",
-            "radio_url": "http://api.mp3quran.net/radios/radio_arabic.json"
-        },
-        {
-            "id": "2",
-            "language": "English",
-            "radio_url": "http://api.mp3quran.net/radios/radio_english.json"
-        },
+	"reads": [
+		{
+			"id": 1,
+			"URL": "http://live.mp3quran.net:9946/;",
+			"name": "Ibrahim Al-Akdar"
+		},
+		{
+			"id": 2,
+			"URL": "http://live.mp3quran.net:9966/;",
+			"name": "Shaik Abu Bakr Al Shatri"
+		},
         ...
     ]
 }
 ```
 
---------
 
-##### `radio_url` Getting radios list of a single language
-###### `GET` http://api.mp3quran.net/radios/radio_english.json
 
-```json
-{
-    "radios": [
-        {
-            "name": "---Amazing short Recitations---",
-            "radio_url": "http://live.mp3quran.net:9702/;"
-        },
-        {
-            "name": "--Quran Tafseer--",
-            "radio_url": "http://live.mp3quran.net:9718/;"
-        },
-        {
-            "name": "-Beautiful Recitations-",
-            "radio_url": "http://live.mp3quran.net:9992/;"
-        },
-        {
-            "name": "-Main Radio-",
-            "radio_url": "http://live.mp3quran.net:8006/;"
-        },
-        ...
-    ]
-}
-```
+- `id` : Unique ID
+
+  
+
+- `name` : Radio's name
+
+  
+
+- `URL` : Radio's URL
