@@ -83,7 +83,7 @@
 
 ##### Getting Latest Reciters added recently
 
-###### `GET` https://mp3quran.net/api/_english.json
+###### `GET` http://api.mp3quran.net/api_2/recent_reads
 
 ```json
 {
