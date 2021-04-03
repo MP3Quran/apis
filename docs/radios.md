@@ -4,6 +4,8 @@
 ##### Getting radios list of a specific language
 ###### `GET` http://api.mp3quran.net/api_2/radios?language=en
 
+`language` 	=> Accepts any language's code (<a href="../docs/localization.md" target="_blank">Localizations - الترجمات</a>)
+
 ```json
 {
 	"reads": [

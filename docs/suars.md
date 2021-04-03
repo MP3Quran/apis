@@ -4,6 +4,8 @@
 ##### Getting Suras List of a specific language
 ###### `GET` http://api.mp3quran.net/api_2/soar?language=en
 
+`language` 	=> Accepts any language's code (<a href="../docs/localization.md" target="_blank">Localizations - الترجمات</a>)
+
 
 
 ```json

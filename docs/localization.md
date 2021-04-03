@@ -5,6 +5,8 @@
 
 ###### `GET` http://api.mp3quran.net/api_2/languages
 
+###### `WE FULLY SUPPORT 21 Languages`
+
 ```json
 {
 	"language": [
